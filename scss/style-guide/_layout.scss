@@ -1,0 +1,38 @@
+.pattern__container {
+
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	@include breakpoint(large up) {
+		
+		flex-direction: row;
+
+	}
+
+	.pattern__page {
+
+		display: flex;
+  		
+		flex-basis: 50%;	
+		min-height: 100vh;
+		border: 1px solid $light-gray;
+
+		flex-grow: 1;
+
+		justify-content: center;
+		flex-direction: column;
+
+		padding: 40px;
+		
+
+		.pattern-col-all {
+
+			margin-bottom: 2rem;
+
+		}
+
+	}
+
+}

@@ -1,0 +1,18 @@
+//indivitdual box styles
+
+#pattern__cover {
+			
+	@include all-type { 
+		color: $white;
+	}
+
+	background: $primary-color;
+	text-align: center;
+
+	.pattern__cover__logo__image {
+
+		width: 500px;
+
+	}
+
+}

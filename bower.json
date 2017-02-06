@@ -1,0 +1,23 @@
+{
+  "name": "Blue Jeans Redesign Appnovation",
+  "version": "1.0.0",
+  "authors": [
+    "Anton <antonm@Appnovation.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
